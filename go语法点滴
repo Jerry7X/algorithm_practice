@@ -1,0 +1,2 @@
+1，一个目录下只能有一个package。比如在quick_sort中放quick_sort.go（package quick_sort） 与 main.go （package main）编译不过
+2, package main是一个特殊的包，意味着是一个可执行程序。即便有main函数，没package main，仍然不会编译出可执行程序。
